@@ -107,20 +107,24 @@
 /*---- .match-player-list ----*/
 .match-player-list {
 	width: inherit;
+	height: auto;
 }
-.match-player-list>.player {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1em;
+.match-player-list>.form {
+	width: inherit;
 }
-.match-player-list>.player>.item{
+.match-player-list>.form>table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.match-player-list>.form>table>thead {
 	height: 30px;
-	flex-basis: 150px;
-	flex-grow: 1;
-	line-height: 30px;
 }
-.match-player-list>.player>.item>input[type=checkbox]{
-	margin-right: 5px;
+.match-player-list>.form>table>thead>tr>th {
+	height: 50px;
+}
+.match-player-list>.form>table>tbody>tr>td {
+	height: 40px;
+	text-align: center;
 }
 .match-player-list>.buttons {
 	margin-top: 50px;
