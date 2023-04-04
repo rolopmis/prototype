@@ -48,28 +48,24 @@
 .match-form {
 	width: inherit;
 }
-.match-form>.form {
+.match-form>form {
 	width: inherit;
 	height: auto;
 }
-.match-form>.form>.pure-g {
+.match-form>form>.pure-g {
 	margin-bottom: 15px;
 	width: inherit;
 	height: 50px;
 	line-height: 50px;
 }
-.match-form>.form>.pure-g>.title{
+.match-form>form>.pure-g>.title{
 	text-align: center;
 }
-.match-form>.form>.pure-g>.text>input[type=text]{
+.match-form>form>.pure-g>.content>input[type=text]{
 	width: 100%;
 }
-.match-form>.form>.pure-g>.date>input[type=text]{
-	display: inline-block;
-	width: 30%;
-}
 .match-form>.buttons {
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 .match-form>.buttons>button {
@@ -80,24 +76,22 @@
 .match-detail {
 	width: inherit;
 }
-.match-detail>.form {
-	width: inherit;
-	height: auto;
-}
-.match-detail>.form>.pure-g {
+.match-detail>form {
 	margin-bottom: 15px;
 	width: inherit;
-	height: 50px;
 	line-height: 50px;
 }
-.match-detail>.form>.pure-g>.title{
+.match-detail>form>.pure-g>.title{
 	text-align: center;
 }
-.match-detail>.form>.pure-g>.text>input[type=text]{
+.match-detail>form>.pure-g>.content{
+	padding-left: 20px;
+}
+.match-detail>form>.pure-g>.content>input[type=text]{
 	width: 100%;
 }
 .match-detail>.buttons {
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 .match-detail>.buttons>button {
@@ -109,25 +103,25 @@
 	width: inherit;
 	height: auto;
 }
-.match-player-list>.form {
-	width: inherit;
-}
-.match-player-list>.form>table {
+.match-player-list>table {
 	width: 100%;
 	border-collapse: collapse;
 }
-.match-player-list>.form>table>thead {
+.match-player-list>table>thead {
 	height: 30px;
 }
-.match-player-list>.form>table>thead>tr>th {
+.match-player-list>table>thead>tr>th {
 	height: 50px;
 }
-.match-player-list>.form>table>tbody>tr>td {
+.match-player-list>table>tbody>tr>td {
 	height: 40px;
 	text-align: center;
 }
+.match-player-list>table>tbody>tr>td>input[type=text] {
+	width: 100%;
+}
 .match-player-list>.buttons {
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 .match-player-list>.buttons>button {
